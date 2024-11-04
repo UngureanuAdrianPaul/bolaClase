@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<VBox xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.Controlador">
+   <children>
+      <Pane fx:id="panelFX" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#teclaPulsada" prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <Circle fx:id="bolaFXroja" fill="#ff1f1f" layoutX="400.0" layoutY="150.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="bolaFXazul" fill="DODGERBLUE" layoutX="400.0" layoutY="300.0" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+   </children>
+</VBox>
